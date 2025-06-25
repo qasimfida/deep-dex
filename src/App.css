@@ -20,7 +20,14 @@
 
 .content h2:nth-child(2) {
 	color: white;
+}
+
+.content h2:nth-child(2) .deep-text {
 	animation: animate 4s ease-in-out infinite;
+}
+
+.content h2:nth-child(2) .dex-text {
+	animation: none;
 }
 
 @keyframes animate {
