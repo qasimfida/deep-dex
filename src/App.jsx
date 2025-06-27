@@ -5,11 +5,11 @@ function App() {
   return (
     <>
    
-    <div className="flex items-center justify-center w-screen px-5 g-black pmin-h-screen font-helvetica-neue">
+    <div className="flex items-center justify-center w-screen min-h-screen px-5 g-black font-helvetica-neue">
       <div className="relative flex flex-col items-center justify-center w-full min-h-screen text-center">
         <div className="relative mb-12 content">
-          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
-          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
+          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">DEX</span></h2>
+          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">DEX</span></h2>
         </div>
         <h2 className="text-white md:text-[45px] text-3xl font-normal mb-8 md:mt-16 mt-8 tracking-wide">COMING JULY 2025</h2>
         <p className="text-white md:text-2xl text-xl font-normal md:mb-19 mb-10 mt-0 max-w-[808px]">
@@ -22,9 +22,9 @@ function App() {
         </a>
         <p className="mt-0 mb-20 text-base text-white">All made possible through the Magic of <b>$DRIP</b></p>
         <footer className="fixed bottom-0 left-0 right-0 flex flex-wrap items-center justify-center w-full gap-3 py-4 text-base font-bold tracking-wide text-center text-white md:flex-nowrap md:flex">
-          <p>©2025 DeepDex.</p>
+          <p>©2025 DeepDEX,</p>
           <p>a DeepFi Project.</p>
-          <p>©All Rights Reserved.</p>   
+          <p>All Rights Reserved.</p>   
         </footer>
       </div>
     </div>
