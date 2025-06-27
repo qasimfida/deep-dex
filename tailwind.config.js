@@ -7,7 +7,7 @@ export default {
     theme: {
       extend: {
         fontFamily: {
-          'helvetica-neue': ['Helvetica Neue LT Std', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
+          'helvetica-neue': ['Helvetica Neue LT Pro', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
         },
       },
     },

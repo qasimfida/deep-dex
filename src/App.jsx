@@ -5,24 +5,23 @@ function App() {
   return (
     <>
    
-    <div className="min-h-screen w-screen bg-black flex items-center justify-center font-helvetica-neue">
-      <div className="w-full min-h-screen flex flex-col items-center justify-center text-center relative">
-        <div className="content mb-[65px]">
-          <h2><span className="deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
-          <h2><span className="deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
+    <div className="flex items-center justify-center w-screen px-5 g-black pmin-h-screen font-helvetica-neue">
+      <div className="relative flex flex-col items-center justify-center w-full min-h-screen text-center">
+        <div className="relative mb-12 content">
+          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
+          <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">Dex</span></h2>
         </div>
-        <h2 className="text-[#D0D0D0] text-[45px] font-[400] mb-[61px] mt-[0px] tracking-wide">COMING JULY 2025</h2>
-        <p className="text-white text-[32px] font-normal mb-[60px] mt-[0px] leading-[30px] max-w-[860px]">
-          The first Solana-based site featuring original games that
-          reward you in $SOL, even if you lose.
+        <h2 className="text-white md:text-[45px] text-3xl font-normal mb-8 md:mt-16 mt-8 tracking-wide">COMING JULY 2025</h2>
+        <p className="text-white md:text-2xl text-xl font-normal md:mb-19 mb-10 mt-0 max-w-[808px]">
+          Fueled by the rewards of the <b>$DRIP</b> token, we are a swap aggregator with first-of-its-kind features that make trading <b>Solana</b> easier than ever.
         </p>
         <a href="https://x.com/deepfinews" target="_blank" rel="noopener noreferrer">
-          <button className="border-[2px] border-white rounded-[24px] px-[24px] py-[21px] text-white text-[18px] font-bold mb-[60px] mt-0 hover:bg-white hover:text-black transition-colors duration-200 flex items-center gap-[12px]">
-            <FaXTwitter className="text-[20px]" /> FOLLOW US
+          <button className="border-2 border-white rounded-[24px] px-6 h-14 text-white text-lg font-bold mb-7 mt-0 hover:bg-white hover:text-black transition-colors duration-200 flex items-center gap-[12px]">
+            <FaXTwitter className="text-xl" /> FOLLOW US
           </button>
         </a>
-        <p className="text-white text-[24px] mb-20 mt-[0px]">Powered through the magic of <span className="font-[700]">$DRIP</span></p>
-        <footer className="text-white text-[16px] fixed bottom-[0px] flex items-center justify-center gap-[12px] font-[700] py-[16px] left-0 right-0 w-full text-center tracking-wide">
+        <p className="mt-0 mb-20 text-base text-white">All made possible through the Magic of <b>$DRIP</b></p>
+        <footer className="fixed bottom-0 left-0 right-0 flex flex-wrap items-center justify-center w-full gap-3 py-4 text-base font-bold tracking-wide text-center text-white md:flex-nowrap md:flex">
           <p>©2025 DeepDex.</p>
           <p>a DeepFi Project.</p>
           <p>©All Rights Reserved.</p>   

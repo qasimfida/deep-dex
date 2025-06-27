@@ -3,11 +3,15 @@
 	font-size: 100px;
 	position: absolute;
 	transform: translate(-50%, -50%);
-  top: 7%;
-  margin-bottom: 65px;
-  height: 119px;
-  background-color: transparent;
+	height: 94px;
+	background-color: transparent;
 	background: transparent;
+}
+@media (max-width: 678px) {
+	.content h2 {
+		font-size: 60px;
+		height: 64px;
+	}
 }
 .content{
   background-color: transparent;
