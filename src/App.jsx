@@ -11,7 +11,7 @@ function App() {
           <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">DEX</span></h2>
           <h2><span className="font-bold deep-text">DEEP</span><span className="dex-text">DEX</span></h2>
         </div>
-        <h2 className="text-white md:text-[45px] text-3xl font-normal mb-8 md:mt-16 mt-8 tracking-wide">COMING AUGUST 2025</h2>
+        <h2 className="text-white md:text-[45px] text-3xl font-normal mb-8 md:mt-16 mt-8 tracking-wide">COMING SEPTEMBER 2025</h2>
         <p className="text-white md:text-2xl text-xl font-normal md:mb-19 mb-10 mt-0 max-w-[808px]">
           Fueled by the rewards of the <b>$DRIP</b> token, we are a swap aggregator with first-of-its-kind features that make trading <b>Solana</b> easier than ever.
         </p>
